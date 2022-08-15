@@ -1,0 +1,42 @@
+.chatBox {
+  height: calc(100vh - 75px);
+  background: #1c1d26;
+  .chats {
+    height: calc(100% - 155px);
+    overflow: scroll;
+    padding: 15px;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
+  }
+
+  .send-message {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 20px 30px;
+    input {
+      outline: none;
+      // border: 1px solid #393636;
+      background-color: transparent;
+      border: 1px solid rgba(181, 191, 214, 0.2);
+      outline: none;
+      padding: 10px;
+      width: 100%;
+      border-radius: 20px;
+      color: white;
+      font-family: "Inter";
+    }
+
+    button {
+      padding: 10px 20px;
+      border: none;
+      outline: none;
+      background: #9e5ec4;
+      // columns: white;
+      color: white;
+      border-radius: 20px;
+    }
+  }
+}

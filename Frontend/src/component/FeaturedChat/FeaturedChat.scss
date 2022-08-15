@@ -1,0 +1,33 @@
+.featuredChat {
+  display: flex;
+  padding: 15px 10px;
+  align-items: center;
+  gap: 11px;
+  border-bottom: 1px solid rgba(181, 191, 214, 0.2);
+  .img {
+    img {
+      border-radius: 50%;
+      height: 3rem;
+      width: 3rem;
+    }
+  }
+
+  .chatInfo {
+    display: flex;
+    flex-direction: column;
+
+    .userName {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 22px;
+    }
+    .message {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 17px;
+      /* identical to box height */
+
+      color: #474b54;
+    }
+  }
+}

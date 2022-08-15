@@ -1,0 +1,43 @@
+.header {
+  display: flex;
+  border: 1px solid rgba(181, 191, 214, 0.2);
+  border-left: 0px;
+  gap: 15px;
+  position: sticky;
+  padding: 10px;
+  align-items: center;
+  img {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+  }
+  .chatInfo {
+    .userName {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 30px;
+      color: #b5bfd6;
+    }
+    .active {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      color: #474b54;
+    }
+
+    .activeIndicator {
+      position: relative;
+      display: flex;
+      gap: 7px;
+      align-items: center;
+    }
+
+    .greenDot {
+      width: 10px;
+      height: 10px;
+      background: #00b300;
+      border-radius: 50%;
+      margin-right: 5px;
+    }
+  }
+}
